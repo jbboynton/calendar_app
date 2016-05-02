@@ -3,7 +3,7 @@
 require_once("../../inc/init.php");
 
 /*
- * home.php
+ * index.php
  * This will do something eventually.
  */
 

@@ -4,6 +4,7 @@
  * init.php
  * Define paths and other globals.
  */
+echo "I'm here z_old/oldinc/init.php";
 
 /* Path definitions */
 /* Define the DIRECTORY_SEPARATOR constant as DS */

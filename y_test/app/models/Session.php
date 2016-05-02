@@ -58,6 +58,7 @@ class Session {
     unset($_SESSION['user_email']);
     unset($this->user_email);
     $this->logged_in = false;
+    // session_destroy();
   }
 
   /*

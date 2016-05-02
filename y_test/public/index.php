@@ -1,6 +1,6 @@
 <?php
 
-  require_once(require_once("../../inc/init.php"));
+  require_once(require_once("../inc/init.php"));
 
   /*
    * index.php

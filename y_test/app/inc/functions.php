@@ -40,6 +40,21 @@ function checkData($candidate) {
   else { return false; }
 }
 
+/*
+ * __autoload function
+ * Checks to see if an undefined class exists.  If so, it will automatically
+ * initialize it, else an error will be raised.
+ * @param $class The class that needs to be initialized.
+ */
+function __autoload($class) {
+  $path = ucfirst(strtolower($class));
+  if (file_exists($path)) {
+    require_once($path);
+  } else {
+    die("The class name could not be found.")
+  }
+}
+
 /* ------------------------------------------------------------------------- *
  * Idea for stronger regex, where $flag is the type of data (e.g. email, pw,
  * username, etc.).  Note: avoid calling trim() on first and last names, so

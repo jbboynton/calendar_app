@@ -1,7 +1,8 @@
 <?php
 
 /**
- *
+ * The index controller.  This may be the source of some of the rendering
+* issues when the "dev/" page is requested.  Needs more testing.
  */
 class Index extends Controller {
 

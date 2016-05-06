@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * The calendar controller.
  */
 class Calendar extends Controller {
 

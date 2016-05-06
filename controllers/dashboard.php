@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * The dashboard controller.  Currently home to some broken session code.
  */
 class Dashboard extends Controller {
 

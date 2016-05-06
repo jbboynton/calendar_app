@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * The error controller.
  */
 class Error extends Controller {
 

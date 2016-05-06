@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * The help controller. Currently not very helpful.
  */
 class Help extends Controller {
 

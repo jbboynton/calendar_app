@@ -1,7 +1,8 @@
 <?php
 
 /**
- *
+ * The newest revision of this class.  Still needs (a lot) of work, but is much
+ * more manageble than its predecessor.  Lacking most of its functionality.
  */
 class Dashboard_Model extends Model {
 

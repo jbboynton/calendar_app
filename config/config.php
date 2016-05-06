@@ -2,7 +2,9 @@
 
 /**
  * config.php
- * This file defines constants used to connect to the MySQL database.
+ * This file defines constants used to connect to the MySQL database.  Edit: it
+ * no longer does this.  In fact, it defines constants that the new PDO
+ * database class can't seem to use.
  */
 
   /* Globals for MySQL */

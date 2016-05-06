@@ -1,9 +1,10 @@
 <?php
 
 /**
- *
+ * Not going to be used anymore -- swapping out MySQLi for the PDO class.
+ * Consider this all to be defunct.
  */
-class Database extends Mysqli {
+class Database {
 
   function __construct() {
     $this->open();

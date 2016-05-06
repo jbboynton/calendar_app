@@ -1,7 +1,9 @@
 <?php
 
 /**
- *
+ * Controller for the administrative "manage" tools.  This controller will
+ * allow the admin to set global options, as well as to have access to the
+ * other user accounts.  Currently non-functioning.
  */
 class Manage extends Controller {
 

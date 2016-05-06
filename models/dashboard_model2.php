@@ -1,7 +1,7 @@
 <?php
 
 /**
- *
+ * Just ignore this one, it's basically all scratch code that never made it in.
  */
 class Dashboard_Model extends Model {
 

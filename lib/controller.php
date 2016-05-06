@@ -10,19 +10,15 @@ class Controller {
   function __construct() {
 
     // check session info here
-
-
+    // Create a new instance of the corresponding view.
     $this->view = new View();
-
-    // $this->session = new Session();
+    // $this->session = new Session();    // Sessions still not working.
   }
 
-  // public function loadSession() {
-  //   if (!($this->session->checkIfLoggedIn)) {}
-  // }
-
+  /* Loading a model automatically if the corresponding controller is
+  * called. */
   public function loadModel($name) {
-    echo "new view was called!";
+    echo "new view was called";
     $path = MODELS_PATH . DS . $name . '_model.php';
 
     if (file_exists($path)) {

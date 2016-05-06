@@ -1,1 +1,1 @@
-<?php echo "you are at other.php"; ?>
+<?php /* a test method */ echo "you are at other.php"; ?>

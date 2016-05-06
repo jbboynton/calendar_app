@@ -1,3 +1,7 @@
+/* Stylesheet for the application.  Much of these styles are no longer
+ * applicable, so please disregard any duplicates or unused styles; they will
+ * be cleaned up/removed before the final version. */
+
 body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0 50px;

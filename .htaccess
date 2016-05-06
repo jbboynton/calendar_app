@@ -1,3 +1,7 @@
+# Rewrites the URL to include a variable that can later be parsed.  This
+# provides the basis of the application's routing scheme.  See
+# /app/core/app.php for further information about the parseUrl() method.
+
 # Options -MultiViews
 # RewriteEngine On
 

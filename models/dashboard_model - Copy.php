@@ -1,7 +1,8 @@
 <?php
 
 /**
- *
+ * An attempt at designing the dashboard model.  It had to be scrapped due to
+ * excess bugginess.  See dashboard_model.php.
  */
 class Dashboard_Model extends Model {
 

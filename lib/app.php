@@ -34,9 +34,9 @@ class App {
      * stored in $url[0]. If there isn't a valid match, load an error page. */
     $file = CONTROLLERS_PATH . DS . $url[0] . '.php';
     if (file_exists($file)) {
-      require_once $file;
+      require $file;
     } else {
-      require_once CONTROLLERS_PATH . DS . 'error.php';
+      require CONTROLLERS_PATH . DS . 'error.php';
       $controller = new Error();
       // Prevents the rest of the page from executing -- fix this!
       return false;
@@ -45,7 +45,7 @@ class App {
     /* Once the controller has been verified, create it.  Then, load the
      * corresponding model. */
     $controller = new $url[0];
-    $controller->loadModel($url[0]);
+    // $controller->loadModel($url[0]);    
     // $controller-loadSession();
 
     /* Once the controller has been created, decide what method needs to be

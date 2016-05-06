@@ -9,11 +9,12 @@ class Session {
   private $loggedIn;
 
   public function __construct() {
-    $this->session_start();
-    // $this->checkIfLoggedIn();
+    session_start();    
+    echo 'trying to init a sessiion';
+    $this->checkIfLoggedIn();
   }
 
-  public function getLoggedIn() {
+  static public function getLoggedIn() {
     return $this->loggedIn;
   }
 

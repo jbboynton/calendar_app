@@ -13,6 +13,7 @@ class Controller {
 
 
     $this->view = new View();
+
     // $this->session = new Session();
   }
 
@@ -21,10 +22,11 @@ class Controller {
   // }
 
   public function loadModel($name) {
+    echo "new view was called!";
     $path = MODELS_PATH . DS . $name . '_model.php';
 
     if (file_exists($path)) {
-      require_once MODELS_PATH . DS . $name . '_model.php';
+      require MODELS_PATH . DS . $name . '_model.php';
       $modelName = $name . '_Model';
       $this->model = new $modelName();
     }

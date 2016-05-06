@@ -1,4 +1,4 @@
-<form class="form-horizontal reg-form" action="logUserIn" method="post">
+<form class="form-horizontal reg-form" action="sign_in" method="post">
 
   <!-- TODO: CAPTCHA and/or bot trap -->
 

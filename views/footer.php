@@ -17,3 +17,5 @@
   </script>
 </body>
 </html>
+
+<?php echo "called from: " . __FILE__; ?>

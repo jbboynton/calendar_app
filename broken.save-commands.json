@@ -1,5 +1,0 @@
-{
-  "commands" : [
-    "**/* : cmd /C \"\"C:\\Users\\James\\Desktop\\Dev VM\\PushToVM Script\\pushToVM.bat\"\""
-  ]
-}
